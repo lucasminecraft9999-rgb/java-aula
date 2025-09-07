@@ -12,6 +12,8 @@ public class Ex8 {
         System.out.println("Digite seu sobre Nome: ");
         String SobreNome = scanner.nextLine();
 
-        System.out.println(nome + SobreNome);
+        String NomeCompleto = nome + " " + SobreNome;
+
+        System.out.println("seu nome completo é : " + NomeCompleto);
     }
 }
