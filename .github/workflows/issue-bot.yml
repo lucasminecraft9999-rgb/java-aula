@@ -1,0 +1,28 @@
+name: Issue Bot
+
+on:  # quando o workflow deve rodar
+  issues:
+    types: [opened] # isso dispara quando abrirem um issue(abrir um questionario por exemplo
+
+jobs: # que vai executar
+  auto-reply:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Responder automaticamente
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const messages = [
+              "👋 Valeu por abrir a issue, @${context.payload.issue.user.login}! 🚀",
+              "😎 Recebemos sua issue, obrigado pelo feedback!",
+              "🤖 Estou de olho! Alguém vai checar em breve.",
+              "✅ Sua issue foi registrada com sucesso, @${context.payload.issue.user.login}!"
+            ];
+            const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+            github.rest.issues.createComment({
+              issue_number: context.payload.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: randomMessage
+            });
