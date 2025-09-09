@@ -1,14 +1,20 @@
 name: Issue Bot
 
-on:  # quando o workflow deve rodar
+on:
   issues:
-    types: [opened] # isso dispara quando abrirem um issue(abrir um questionario por exemplo
+    types: [opened]
 
-jobs: # que vai executar
+jobs:
   auto-reply:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set up Java # Este é o passo que estava com erro
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin' # Linha corrigida, que faltava
+
       - name: Responder automaticamente
         uses: actions/github-script@v6
         with:
