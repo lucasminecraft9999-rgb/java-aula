@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set up Java # Este é o passo que estava com erro
+      - name: Set up Java
         uses: actions/setup-java@v3
         with:
           java-version: '17'
-          distribution: 'temurin' # Linha corrigida, que faltava
+          distribution: 'temurin'
 
       - name: Responder automaticamente
         uses: actions/github-script@v6
