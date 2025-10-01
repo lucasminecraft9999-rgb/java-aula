@@ -1,11 +1,13 @@
 package Exercicio02.Ex1;
 
-import java.util.Scanner;
+import Exercicio02.herancas.Pessoa;
 
 public class Main {
     public static void main(String[] args) {
-    Pessoa pessoa = new Pessoa();
+        Pessoa pessoa = new Pessoa();
+        pessoa.setNome("cuca");
+        pessoa.setIdade(27);
         pessoa.ColocarNome();
-        pessoa.chamar();
+        pessoa.apresentar();
     }
 }
