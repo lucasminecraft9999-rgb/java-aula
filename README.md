@@ -1,8 +1,9 @@
-🚀 Estudos em Java – Variáveis, OO e Arquivos .txt
+# 🚀 Estudos em Java – Variáveis, OO e Arquivos .txt
 
 Este repositório reúne meus exercícios e projetos de aprendizagem em Java, divididos em duas etapas principais: variáveis e programação orientada a objetos, incluindo o uso de arquivos com FileWriter, BufferedWriter e BufferedReader.
 
-✅ 📁 Estrutura do Repositório
+# ✅ 📁 Estrutura do Repositório
+```
 |
 |- Exercicio 01
 |   └─ src
@@ -13,8 +14,8 @@ Este repositório reúne meus exercícios e projetos de aprendizagem em Java, di
 |      └─ Exercicio02  → POO + arquivos .txt + mini projeto
 |
 |- projetos            → Implementações baseadas nos exercícios
-
-🧩 🚀 Exercício 01 – Variáveis e Operações Básicas
+```
+# 🧩 🚀 Exercício 01 – Variáveis e Operações Básicas
 
 Aqui estão exercícios focados em declaração e manipulação de variáveis:
 
@@ -40,7 +41,7 @@ Calcula largura * altura.
 
 Exercicio 01/src/Exercicio01
 
-🧠💡 Exercício 02 – Orientação a Objetos + Arquivos .txt
+# 🧠💡 Exercício 02 – Orientação a Objetos + Arquivos .txt
 🔹 Etapa 1 – Classes e Encapsulamento
 
 ✔ Exercício 1 – Classe Pessoa com método apresentar()
@@ -55,7 +56,7 @@ Exercicio 01/src/Exercicio01
 
 🔹 Etapa 3 – Mini Projeto com .txt
 
-📌 Sistema simples de cadastro com menu:
+# 📌 Sistema simples de cadastro com menu:
 
 1 - Cadastrar aluno
 2 - Listar alunos
@@ -78,11 +79,11 @@ Scanner
 
 Exercicio 01/src/Exercicio02
 
-🛠️ Projetos baseados nos exercícios
+# 🛠️ Projetos baseados nos exercícios
 
 Na pasta projetos, estão implementações práticas feitas a partir dos dois conjuntos de exercícios, reforçando os conceitos com código funcional.
 
-📌 Tecnologias Utilizadas
+# 📌 Tecnologias Utilizadas
 
 [![Java](https://img.shields.io/badge/Java-23-yellow)](https://www.oracle.com/br/java/technologies/downloads/)
 
@@ -94,7 +95,7 @@ Scanner
 
 ArrayList
 
-🎯 Objetivo do Repositório
+# 🎯 Objetivo do Repositório
 
 Este repositório foi criado para:
 ✅ Praticar lógica e sintaxe Java
@@ -102,7 +103,7 @@ Este repositório foi criado para:
 ✅ Implementar leitura e escrita de arquivos
 ✅ Criar pequenos projetos com menus e classes
 
-🤝 Contribuição
+# 🤝 Contribuição
 
 Se quiser sugerir melhorias ou novos exercícios, fique à vontade para abrir uma issue ou mandar um PR! 😄
 
