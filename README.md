@@ -106,11 +106,4 @@ Este repositório foi criado para:
 
 Se quiser sugerir melhorias ou novos exercícios, fique à vontade para abrir uma issue ou mandar um PR! 😄
 
-📢 Autor
 
-Lucas Silva de Souza
-
-Se quiser, posso adicionar:
-✔ Print do projeto
-✔ GIFs
-✔ Tabela de exercícios
